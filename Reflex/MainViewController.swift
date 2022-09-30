@@ -6,16 +6,16 @@
 //
 
 import UIKit
-import Networking
+//import Networking
 
 class MainViewController: UIViewController {
 
-    let test = Networking.text
+//    let test = Networking.text
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
-        navigationController?.title = test
+//        navigationController?.title = test
     }
 
 
